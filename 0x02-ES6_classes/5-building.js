@@ -9,10 +9,12 @@ export default class Building {
       }
     }
   }
+  
   // gets building size in square feet.
   get sqft() {
     return this._sqft;
   }
+
   // sets building size in square feet.
   set sqft(value) {
     this._sqft = value;
