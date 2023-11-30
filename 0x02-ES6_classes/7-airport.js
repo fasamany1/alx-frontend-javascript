@@ -3,6 +3,7 @@ export default class Airport {
     this.name = name;
     this.code = code;
   }
+  
   // get-gets the name or code and set sets the name or code.
   get name() {
     return this._name;
