@@ -14,7 +14,7 @@ export default class EVCar extends Car {
     this._range = value;
   }
   
-  // returns instance of Car instead of EVCar when called
+  // returns instance of Car instead
   cloneCar() {
     const Species = super.constructor[Symbol.species];
 
