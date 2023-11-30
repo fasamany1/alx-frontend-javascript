@@ -17,7 +17,6 @@ export default class EVCar extends Car {
   // returns instance of Car instead
   cloneCar() {
     const Species = super.constructor[Symbol.species];
-
-    return new Species();
+  return new Species();
   }
 }
