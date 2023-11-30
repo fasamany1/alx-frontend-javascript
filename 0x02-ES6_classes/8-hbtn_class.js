@@ -19,7 +19,8 @@ export default class HolbertonClass {
   set location(value) {
     this._location = value;
   }
-  // @number returns the size and @string returns the location.
+  
+  // number and string returns the size & location respectively
   [Symbol.toPrimitive](hint) {
     if (hint === 'number') {
       return this.size;
