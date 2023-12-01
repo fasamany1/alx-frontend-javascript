@@ -13,7 +13,7 @@ export default class EVCar extends Car {
   set range(value) {
     this._range = value;
   }
-  cloneCar() {// returns instance of Car instead
+  cloneCar() {
     const Species = super.constructor[Symbol.species];
 
     return new Species();
