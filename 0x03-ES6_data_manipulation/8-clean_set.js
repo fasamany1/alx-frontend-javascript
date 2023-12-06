@@ -1,7 +1,7 @@
 /**
- * Creates a function that returns a string 
+ * Creates a function that returns a string
  * of all its values 
- */ 
+ */
 export default function cleanSet(set, startString) {
   const parts = [];
   if (!set || !startString || !(set instanceof Set) || typeof startString !== 'string') {
